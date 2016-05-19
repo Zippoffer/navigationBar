@@ -1,0 +1,27 @@
+div {
+	background-color: lightyellow;
+	border: 2px solid black;
+	display: inline;
+}
+
+a:hover {
+	color: yellow;
+	transition:  2s ease-in-out;
+}
+li {
+	display: inline;
+	margin-left: 2em;
+	margin-right: 2em;
+	font-size: 1em;
+	padding-left: 1em;
+	font-family: Arial;
+}
+div:hover {
+	background: lightblue;
+}
+.colors:hover {
+	background-color: lightblue;
+}
+.grow:active {
+    zoom: 150%;
+}
